@@ -22,7 +22,7 @@ Sutra-Code aims to transform Indian programming education by:
 ```bash
 # Fork the repository on GitHub
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/sutra-code.git
+git clone https://github.com/0535MANIDEEP/sutra-code.git
 cd sutra-code
 
 # Install dependencies
@@ -377,6 +377,6 @@ Together, we're creating a more inclusive, culturally-aware, and effective way t
 
 **Questions? Need help getting started?**
 
-[💬 Start a Discussion](https://github.com/YOUR_USERNAME/sutra-code/discussions) | [🐛 Report an Issue](https://github.com/YOUR_USERNAME/sutra-code/issues) | [📧 Email Us](mailto:sutra.code.ai@gmail.com)
+[💬 Start a Discussion](https://github.com/0535MANIDEEP/sutra-code/discussions) | [🐛 Report an Issue](https://github.com/0535MANIDEEP/sutra-code/issues) | [📧 Email Us](mailto:sutra.code.ai@gmail.com)
 
 </div>

@@ -21,7 +21,7 @@ Sutra-Code transforms Indian programming education by preventing copy-paste cult
 
 ```bash
 # Quick start - No AWS setup required!
-git clone https://github.com/YOUR_USERNAME/sutra-code.git
+git clone https://github.com/0535MANIDEEP/sutra-code.git
 cd sutra-code/frontend
 npm install
 npm start
@@ -141,7 +141,7 @@ sutra-code/
 ### **Demo Mode (No AWS Required)**
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/sutra-code.git
+git clone https://github.com/0535MANIDEEP/sutra-code.git
 cd sutra-code
 
 # Install dependencies
@@ -248,7 +248,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### **Development Setup**
 ```bash
 # Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/sutra-code.git
+git clone https://github.com/0535MANIDEEP/sutra-code.git
 cd sutra-code
 
 # Install dependencies
@@ -321,6 +321,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 *Transforming Indian programming education, one Socratic question at a time.*
 
-[⭐ Star this repo](https://github.com/YOUR_USERNAME/sutra-code) | [🐛 Report Bug](https://github.com/YOUR_USERNAME/sutra-code/issues) | [💡 Request Feature](https://github.com/YOUR_USERNAME/sutra-code/issues)
+[⭐ Star this repo](https://github.com/0535MANIDEEP/sutra-code) | [🐛 Report Bug](https://github.com/0535MANIDEEP/sutra-code/issues) | [💡 Request Feature](https://github.com/0535MANIDEEP/sutra-code/issues)
 
 </div>
