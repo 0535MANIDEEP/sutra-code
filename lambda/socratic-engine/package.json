@@ -1,0 +1,22 @@
+{
+  "name": "socratic-engine",
+  "version": "1.0.0",
+  "description": "Socratic Engine Lambda function for Sutra-Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.978.0",
+    "@aws-sdk/client-dynamodb": "^3.978.0",
+    "@aws-sdk/lib-dynamodb": "^3.978.0",
+    "@aws-sdk/client-lambda": "^3.978.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.160",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^5.2.2"
+  }
+}

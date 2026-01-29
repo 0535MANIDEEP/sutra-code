@@ -1,0 +1,29 @@
+{
+  "name": "sutra-code-auth-lambda",
+  "version": "1.0.0",
+  "description": "JWT validation middleware for Sutra-Code authentication",
+  "main": "jwt-validator.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.450.0",
+    "@aws-sdk/lib-dynamodb": "^3.450.0",
+    "aws-jwt-verify": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.126",
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "jwt",
+    "authentication",
+    "cognito"
+  ],
+  "author": "Sutra-Code Team",
+  "license": "MIT"
+}

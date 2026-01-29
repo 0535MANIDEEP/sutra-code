@@ -1,0 +1,24 @@
+{
+  "name": "audit-logger",
+  "version": "1.0.0",
+  "description": "Comprehensive audit logging for DPDP Act 2023 compliance in Sutra-Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.450.0",
+    "@aws-sdk/lib-dynamodb": "^3.450.0",
+    "@aws-sdk/client-kms": "^3.450.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.450.0",
+    "@aws-sdk/client-sns": "^3.450.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6",
+    "jest": "^29.6.2",
+    "@types/jest": "^29.5.3"
+  }
+}

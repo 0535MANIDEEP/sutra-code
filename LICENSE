@@ -1,0 +1,59 @@
+MIT License
+
+Copyright (c) 2024 Sutra-Code: Socratic AI Mentor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Terms for Educational Use
+
+This software is specifically designed for educational purposes and the advancement
+of programming education in India. While the MIT license allows commercial use,
+we encourage:
+
+1. **Educational Priority**: Give preference to educational institutions and 
+   non-profit organizations working to improve programming education in India.
+
+2. **Cultural Respect**: Maintain the cultural context and Indian analogies that
+   make this system unique and effective for Indian learners.
+
+3. **Open Source Spirit**: Contribute improvements back to the community,
+   especially those that benefit Indian programming education.
+
+4. **DPDP Compliance**: Ensure any deployment complies with India's Digital
+   Personal Data Protection Act 2023.
+
+## Attribution
+
+If you use this software in research, education, or commercial applications,
+please cite:
+
+```
+Sutra-Code: Socratic AI Mentor for Indian Programmers
+A culturally-aware educational platform that transforms programming learning
+through Socratic questioning and Indian cultural contexts.
+https://github.com/YOUR_USERNAME/sutra-code
+```
+
+## Contact
+
+For questions about licensing, educational partnerships, or commercial use:
+- Email: sutra.code.ai@gmail.com
+- GitHub: https://github.com/YOUR_USERNAME/sutra-code

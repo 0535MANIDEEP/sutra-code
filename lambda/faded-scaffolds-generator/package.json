@@ -1,0 +1,33 @@
+{
+  "name": "faded-scaffolds-generator",
+  "version": "1.0.0",
+  "description": "Faded Scaffolds Generator Lambda function for Sutra-Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.450.0",
+    "@aws-sdk/client-dynamodb": "^3.450.0",
+    "@aws-sdk/client-lambda": "^3.450.0",
+    "@aws-sdk/lib-dynamodb": "^3.450.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.126",
+    "@types/node": "^20.8.0",
+    "@types/uuid": "^9.0.6",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "scaffolding",
+    "education",
+    "ai"
+  ],
+  "author": "Sutra-Code Team",
+  "license": "MIT"
+}

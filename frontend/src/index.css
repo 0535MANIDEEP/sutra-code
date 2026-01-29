@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for Sutra-Code */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  /* Support for Indian languages */
+  .font-devanagari {
+    font-family: 'Noto Sans Devanagari', system-ui, sans-serif;
+  }
+  
+  /* Smooth scrolling for better UX */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar for chat */
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 3px;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@layer components {
+  /* Chat bubble animations */
+  .chat-bubble-enter {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  .chat-bubble-student {
+    @apply bg-primary-500 text-white rounded-2xl rounded-br-md px-4 py-3 max-w-xs ml-auto;
+  }
+  
+  .chat-bubble-mentor {
+    @apply bg-white border border-gray-200 rounded-2xl rounded-bl-md px-4 py-3 max-w-md mr-auto shadow-sm;
+  }
+  
+  /* Cultural analogy styling */
+  .cultural-analogy {
+    @apply bg-gradient-to-r from-cultural-saffron/10 to-cultural-green/10 border-l-4 border-cultural-saffron p-4 rounded-r-lg;
+  }
+  
+  /* Language selector styling */
+  .language-selector {
+    @apply relative inline-block text-left;
+  }
+  
+  /* Loading states */
+  .typing-indicator {
+    @apply flex space-x-1;
+  }
+  
+  .typing-dot {
+    @apply w-2 h-2 bg-gray-400 rounded-full animate-bounce;
+  }
+  
+  .typing-dot:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .typing-dot:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2;
+  }
+  
+  .btn-outline {
+    @apply border border-gray-300 hover:border-gray-400 text-gray-700 hover:text-gray-900 font-medium py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  /* Input styles */
+  .input-primary {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+  
+  /* Progress indicators */
+  .progress-bar {
+    @apply w-full bg-gray-200 rounded-full h-2;
+  }
+  
+  .progress-fill {
+    @apply bg-primary-500 h-2 rounded-full transition-all duration-300;
+  }
+  
+  /* Cultural icons */
+  .cultural-icon {
+    @apply w-6 h-6 text-cultural-saffron;
+  }
+  
+  /* Mobile-first responsive design */
+  .mobile-chat-container {
+    @apply flex flex-col h-screen bg-gray-50;
+  }
+  
+  .mobile-chat-header {
+    @apply bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between;
+  }
+  
+  .mobile-chat-messages {
+    @apply flex-1 overflow-y-auto px-4 py-4 space-y-4 chat-scrollbar;
+  }
+  
+  .mobile-chat-input {
+    @apply bg-white border-t border-gray-200 px-4 py-3;
+  }
+}
+
+@layer utilities {
+  /* Text utilities for Indian languages */
+  .text-hindi {
+    font-family: 'Noto Sans Devanagari', system-ui, sans-serif;
+  }
+  
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  /* Gradient utilities */
+  .gradient-saffron {
+    background: linear-gradient(135deg, #ff9933 0%, #ff6600 100%);
+  }
+  
+  .gradient-cultural {
+    background: linear-gradient(135deg, #ff9933 0%, #138808 50%, #ffffff 100%);
+  }
+  
+  /* Shadow utilities */
+  .shadow-cultural {
+    box-shadow: 0 4px 6px -1px rgba(255, 153, 51, 0.1), 0 2px 4px -1px rgba(255, 153, 51, 0.06);
+  }
+}

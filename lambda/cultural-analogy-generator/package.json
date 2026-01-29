@@ -1,0 +1,39 @@
+{
+  "name": "cultural-analogy-generator",
+  "version": "1.0.0",
+  "description": "Cultural Analogy Generator Lambda for Sutra-Code - generates culturally relevant analogies using Indian contexts",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.450.0",
+    "@aws-sdk/client-dynamodb": "^3.450.0",
+    "@aws-sdk/lib-dynamodb": "^3.450.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.126",
+    "@types/node": "^20.8.0",
+    "@types/uuid": "^9.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "aws-lambda",
+    "cultural-analogies",
+    "indian-education",
+    "programming-concepts",
+    "bedrock",
+    "claude",
+    "socratic-learning"
+  ],
+  "author": "Sutra-Code Team",
+  "license": "MIT"
+}
