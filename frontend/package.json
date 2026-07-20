@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -58,6 +58,7 @@
   "devDependencies": {
     "@types/jest": "^27.5.0",
     "@types/recharts": "^1.8.29",
+    "@types/uuid": "^9.0.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0"
   },

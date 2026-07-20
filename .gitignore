@@ -244,3 +244,4 @@ cdk.out
 # Keep frontend source
 !frontend/src/**/*
 !frontend/public/**/*
+.vercel

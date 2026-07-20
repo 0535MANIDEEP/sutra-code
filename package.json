@@ -52,6 +52,9 @@
     "education",
     "india"
   ],
-  "author": "Sutra-Code Team",
-  "license": "MIT"
+  "author": "Manideep Daram",
+  "license": "MIT",
+  "engines": {
+    "node": "24.x"
+  }
 }
